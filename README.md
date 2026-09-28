@@ -13,7 +13,7 @@ I'm a Computer Science & AI student at Business and Technology University (BTU) 
 ## 🚀 Featured projects
 | Project | What it is | Stack |
 |---|---|---|
-| [linkShare](https://github.com/ZMetreveli77/linkshare) | Linktree-style app: desktop dashboard to manage links + public profile pages with click tracking and QR codes | Python, Flask, SQLite, PyQt6, bcrypt |
+| [LinkVerse](https://github.com/ZMetreveli77/linkverse) | Link-in-bio app: PyQt6 desktop dashboard to manage your profile and links, Flask public profile pages with QR code sharing and click tracking | Python, Flask, PyQt6, SQLite, bcrypt |
 | [Product Reviews (React)](https://github.com/ZMetreveli77/product-reviews-react) | Product review page with star ratings and a validated "write a review" modal | React, Formik, Yup, MUI, Sass |
 | [Product list with cart](https://github.com/ZMetreveli77/product-list-with-cart) | Frontend Mentor challenge: dessert shop with cart and quantity controls | React, Vite, CSS |
 
