@@ -1,42 +1,48 @@
-# Hi, I'm Zuka Metreveli 👋
+# Hi, I'm Zuka Metreveli
 
-**Full-stack developer** in Tbilisi, working in **React** on the frontend and **Python (FastAPI / Flask)** on the backend, and lately building AI apps with retrieval and LLM agents.  
-I'm a Computer Science & AI student at Business and Technology University (BTU), looking for internships, junior developer roles and hackathon teams.
+I'm a full-stack developer in Tbilisi and a Computer Science & AI student at Business and Technology University (BTU). I mostly work with React on the front end and Python on the back end, and lately I've been building AI apps that search through documents and back up what they say.
 
-🌐 **Portfolio: [metroz.me](https://metroz.me)** · 📍 Tbilisi, Georgia · 🗣️ Georgian, English
+I'm looking for internships, junior developer roles and hackathon teams.
 
-## 🚀 Featured projects
+My portfolio is at [metroz.me](https://metroz.me). I speak Georgian and English.
 
-### 🔎 [CaseFile](https://github.com/ZMetreveli77/CaseFile): an AI investigation engine that cites its evidence
-**[Live demo](https://casefile.metroz.me)** · Solo project · React, TypeScript, FastAPI, Qdrant, Gemini, Docker
+## What I've been building
 
-Ask a question about a large document collection. CaseFile searches step by step, follows facts from one document to the next, and links every claim to the passage behind it. When sources disagree it says so, and when the evidence is missing it declines to answer.
-- Hybrid search (dense embeddings + my own BM25, fused with Reciprocal Rank Fusion) over **78,730 passages** in Qdrant Cloud
-- Tool-calling agent with citation validation, prompt-injection tests and a Gemini → Groq failsafe
-- Evaluated on 60 questions: multi-hop accuracy went from **0.60 to 0.80** compared with a one-search baseline
+### [CaseFile](https://github.com/ZMetreveli77/CaseFile)
+An AI investigation engine that cites its evidence. [Try it live](https://casefile.metroz.me) (it's on free hosting, so the first request can take about a minute while the server wakes up).
 
-> Free hosting: the first request can take about a minute to wake the server.
+You ask a question about a large collection of documents, and CaseFile works through it step by step, following facts from one document to the next. Every claim in the answer links to the passage it came from. If sources disagree, it tells you; if the evidence isn't there, it says so instead of making something up.
 
-### ⚽ Grand Tour: fantasy football across Europe
-**[Live demo](https://grandtour.metroz.me)** · React, Python
+I built this one solo. It searches 78,730 passages in Qdrant using a mix of embeddings and my own BM25 implementation, and on a 60-question evaluation the agent got multi-hop questions right 80% of the time, up from 60% with a single search.
 
-Seven games on one account: one for each of the top five leagues, one for the Champions League, and the Grand Tour itself, where a single 25-player squad spans all five leagues on a £200m budget. Each game has its own squad, points and mini-leagues.
+*React, TypeScript, FastAPI, Qdrant, Gemini, Docker*
 
-### 📈 [BizLens](https://github.com/G10rga/BizLens): cash-flow forecasting for Georgian small businesses
-[Live demo](https://bizlens.g1orga.dev) *(temporarily offline)* · Team project · React, Flask, SQLAlchemy, Prophet, RapidOCR
+### Grand Tour
+Fantasy football across Europe. [Try it live](https://grandtour.metroz.me).
 
-A bakery owner records sales at the till or photographs a fiscal receipt. BizLens sets that against rent, salaries and supplier payments, forecasts cash 30, 60 and 90 days out, and warns before it runs short. The forecast accounts for Orthodox holidays, fasting periods and tourist season. Available in Georgian and English.
+There are seven games on one account: one for each of the top five leagues, one for the Champions League, and the Grand Tour itself, where you build a single 25-player squad from all five leagues on a £200m budget. Each game has its own squad, points and mini-leagues.
 
-### 🛂 [AI Skills Digital Passport](https://github.com/G10rga/AI-Skills-Digital-Passport): AI skills anyone can verify
-[Live demo](https://aipassport.g1orga.dev) *(temporarily offline)* · BTU hackathon, team project (I built the core backend) · React, TanStack Start, FastAPI, Solidity, Ed25519
+*React, Python*
 
-Each student keeps one permanent passport, and every confirmed skill issues a new version. Each version is hashed, signed by the university and anchored on-chain, so an employer can verify it with a code, a QR or the PDF itself, without logging in. Edited PDFs fail the check.
+### [BizLens](https://github.com/G10rga/BizLens)
+Cash-flow forecasting for small businesses in Georgia. Built with a team. The [live demo](https://bizlens.g1orga.dev) is offline for now.
 
-## 🛠️ Tech I work with
-- **Frontend:** React, TypeScript, JavaScript, Vite, Tailwind, Sass
-- **Backend:** Python, FastAPI, Flask, SQLAlchemy, SQLite
-- **AI & data:** retrieval and hybrid search, LLM agents, Qdrant, forecasting (Prophet), OCR
-- **Tooling:** Git & GitHub, Docker, pytest, Vitest
+Picture a bakery owner who logs sales at the till or snaps a photo of a fiscal receipt. BizLens weighs that against rent, salaries and supplier payments, forecasts cash 30, 60 and 90 days ahead, and warns them before money runs short. The forecast knows about Orthodox holidays, fasting periods and tourist season, and the app works in Georgian and English.
 
-## 📫 Contact
-🌐 [metroz.me](https://metroz.me) · 💼 [LinkedIn](https://www.linkedin.com/in/zuka-metreveli-111aa630b)
+*React, Flask, SQLAlchemy, Prophet, RapidOCR*
+
+### [AI Skills Digital Passport](https://github.com/G10rga/AI-Skills-Digital-Passport)
+A record of AI skills that anyone can verify. We built it as a team for the BTU AI Skills Digital Passport hackathon, and I wrote the core backend. The [live demo](https://aipassport.g1orga.dev) is offline for now.
+
+Every student has one permanent passport, and each confirmed skill adds a new version. Each version is hashed, signed by the university and anchored on-chain, so an employer can check it with a code, a QR code or the PDF itself, with no login needed. If someone edits the PDF, the check fails.
+
+*React, TanStack Start, FastAPI, Solidity, Ed25519*
+
+## Tools I use
+- Front end: React, TypeScript, JavaScript, Vite, Tailwind, Sass
+- Back end: Python, FastAPI, Flask, SQLAlchemy, SQLite
+- AI and data: search and retrieval, LLM agents, Qdrant, forecasting with Prophet, OCR
+- Everything else: Git, Docker, pytest, Vitest
+
+## Get in touch
+You can find me on [LinkedIn](https://www.linkedin.com/in/zuka-metreveli-111aa630b) or through my portfolio at [metroz.me](https://metroz.me).
