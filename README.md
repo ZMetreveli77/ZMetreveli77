@@ -45,4 +45,4 @@ Every student has one permanent passport, and each confirmed skill adds a new ve
 - Everything else: Git, Docker, pytest, Vitest
 
 ## Get in touch
-You can find me on [LinkedIn](https://www.linkedin.com/in/zuka-metreveli-111aa630b) or through my portfolio at [metroz.me](https://metroz.me).
+You can find me on [LinkedIn](https://www.linkedin.com/in/zuka-metreveli) or through my portfolio at [metroz.me](https://metroz.me).
